@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // Base para o projeto inteiro
+    "paths": {
+      "@/*": ["./api/src/*"] // Alias global para o diretório da API
+    }
+    // ...existing options...
+  }
+}
